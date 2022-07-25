@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+body {
+    background-color: cadetblue;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 50px;
+}
+
+.button {
+    background: none;
+    border: none;
+    padding: 25px;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
