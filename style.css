@@ -21,6 +21,10 @@ body {
     -moz-box-shadow: 1px 6px 13px 0px rgba(31,30,69,0.7);
 }
 
+.header a:hover {
+    background-color: #748CAB;
+    transition: 1s;
+}
 .tittle {
     color: #86B48B;
 }
@@ -73,7 +77,6 @@ body {
 }
 
 .footer {
-    background-color: #748CAB;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,10 +89,6 @@ body {
     color: #F7F3E3;
 }
 
-a:hover {
-    background-color: #748CAB;
-    transition: 1s;
-}
 
 @media (max-width: 1210px) {
 
